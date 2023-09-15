@@ -1,0 +1,55 @@
+<ion-content class="ion-text-center home-content">
+  <div class="camera-view">
+    <!-- Visualización de la Cámara y Controles de Movimiento -->
+    <h2>Visualización de la Cámara</h2>
+    <!-- Video de YouTube incorporado -->
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/wE-aQO9XD1g" frameborder="0" allowfullscreen></iframe>
+    <div class="robot-control">
+      <!-- Control de Movimiento del Robot -->
+      <h3>Control de Movimiento del Robot</h3>
+      <ion-button expand="full" color="primary" class="move-forward">Mover Adelante</ion-button>
+      <ion-button expand="full" color="primary" class="move-backward">Mover Atrás</ion-button>
+    </div>
+  </div>
+
+  <div class="robot-arm-control">
+    <!-- Visualización de la Cámara con el Brazo Robótico -->
+    <h2>Visualización de la Cámara con el Brazo Robótico</h2>
+    <!-- Video de YouTube incorporado -->
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ugd1Pt3Boz0" frameborder="0" allowfullscreen></iframe>
+    <!-- Control del Brazo Robótico -->
+    <h3>Control del Brazo Robótico</h3>
+    <!-- Controles visuales para los ejes del brazo robótico -->
+    <!-- Eje X -->
+    <ion-range min="0" max="100" step="1" color="primary">
+      <ion-label slot="start">Eje X:</ion-label>
+      <ion-label slot="end">50</ion-label>
+    </ion-range>
+    <!-- Eje Y -->
+    <ion-range min="0" max="100" step="1" color="primary">
+      <ion-label slot="start">Eje Y:</ion-label>
+      <ion-label slot="end">50</ion-label>
+    </ion-range>
+    <!-- Eje Z -->
+    <ion-range min="0" max="100" step="1" color="primary">
+      <ion-label slot="start">Eje Z:</ion-label>
+      <ion-label slot="end">50</ion-label>
+    </ion-range>
+  </div>
+
+  <div class="sensor-data">
+    <!-- Datos de Sensores -->
+    <h2>Datos de Sensores</h2>
+    <!-- Nota sobre la visualización de datos de sensores -->
+    <p class="sensor-note">
+      En esta sección, encontrarás la visualización en tiempo real de datos de todos los sensores. Estamos trabajando en un diseño atractivo que evolucionará a medida que definamos qué mediremos exactamente. Además, cada sección se ubicará en una pestaña separada, lo que permite una exploración más detallada. Esta es una versión de prueba de la aplicación.
+    </p>
+    <!-- Representación visual de los datos de sensores -->
+    <div class="sensor">
+      <p>Temperatura: 25°C</p>
+    </div>
+    <div class="sensor">
+      <p>Humedad: 50%</p>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,80 @@
+/* Estilos para el fondo de la página */
+ion-content {
+  background: linear-gradient(to bottom, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+}
+
+/* Estilos para el título de la página */
+ion-title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para los contenedores de secciones */
+.robot-control, .robot-arm-control, .sensor-data, .camera-view {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los botones de control de movimiento */
+ion-button.move-forward, ion-button.move-backward {
+  font-size: 1.4rem;
+  --border-radius: 50px;
+  margin: 10px;
+  background-color: #ff5733;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+ion-button.move-forward:hover, ion-button.move-backward:hover {
+  background-color: #d6360a;
+}
+
+/* Estilos para los controles de ejes del brazo robótico */
+ion-range {
+  width: 100%;
+  margin-bottom: 15px;
+  --bar-background-active: #ff5733;
+}
+
+/* Estilos para las etiquetas de los controles de ejes */
+label {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la visualización de datos de sensores */
+.sensor {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 1.4rem;
+  color: #333;
+}
+
+/* Estilos para el video de YouTube */
+iframe {
+  width: 100%;
+  height: 315px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}

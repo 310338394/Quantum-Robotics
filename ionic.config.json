@@ -1,0 +1,7 @@
+{
+  "name": "App Quantum Robotics",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
